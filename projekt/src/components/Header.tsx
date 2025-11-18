@@ -1,4 +1,4 @@
-import { Home, MessageSquare, Bell, Search, X, Users } from 'lucide-react';
+import { Home, MessageSquare, Bell, Search, X, Users, AlertTriangle } from 'lucide-react';
 import { User } from '../App';
 
 interface HeaderProps {
@@ -10,9 +10,10 @@ interface HeaderProps {
   searchQuery: string;
   onSearchChange: (query: string) => void;
   pendingRequestsCount?: number;
+  onShowError?: () => void;
 }
 
-export function Header({ currentUser, onViewProfile, onBackToFeed, onViewFriends, currentView, searchQuery, onSearchChange, pendingRequestsCount = 0 }: HeaderProps) {
+export function Header({ currentUser, onViewProfile, onBackToFeed, onViewFriends, currentView, searchQuery, onSearchChange, pendingRequestsCount = 0, onShowError }: HeaderProps) {
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4">
@@ -73,6 +74,15 @@ export function Header({ currentUser, onViewProfile, onBackToFeed, onViewFriends
               <span className="absolute top-1 right-2 w-2 h-2 bg-red-500 rounded-full"></span>
               <span className="text-xs mt-1 hidden sm:block">Powiadomienia</span>
             </button>
+            {onShowError && (
+              <button
+                onClick={onShowError}
+                className="flex flex-col items-center px-4 py-2 text-gray-600 transition-colors hover:text-blue-600"
+              >
+                <AlertTriangle className="w-5 h-5" />
+                <span className="text-xs mt-1 hidden sm:block">Zgłoś błąd</span>
+              </button>
+            )}
             
             <div className="ml-2 pl-2 border-l border-gray-200">
               <img

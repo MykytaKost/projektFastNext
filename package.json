@@ -1,0 +1,22 @@
+{
+  "name": "projektfastnext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykytaKost/projektFastNext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MykytaKost/projektFastNext/issues"
+  },
+  "homepage": "https://github.com/MykytaKost/projektFastNext#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1"
+  }
+}

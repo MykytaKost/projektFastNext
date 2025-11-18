@@ -1,0 +1,8 @@
+1. Przenieś projekt z projekt do nowej lub istniejącej instancji next/reset
+2. Domyślnie ustaw aplikację na porcie 3001
+5. Dorób backend(fastapi) 
+6. Przenieś zhardcodowane dane do instacji testowej lub istniejącej instancji (testuj pamiętać o wirtualnej zmianie środowiskowej)
+7. Połącz za pomocą ServerComponent oraz ClientComponent dane z backendu (instacji) z frontem.
+8. Dorób nieistniejące podstrony (error)
+9. Dorób istniejące podstrony/funkcje
+

@@ -1,9 +1,4 @@
-1. Przenieś projekt z projekt do nowej lub istniejącej instancji next/reset
-2. Domyślnie ustaw aplikację na porcie 3001
-3. Dorób nieistniejące podstrony (error)
-4. Dorób istniejące podstrony/funkcje 
-5. Przenieś zhardcodowane dane do instacji testowej lub istniejącej instancji (testuj pamiętać o wirtualnej zmianie środowiskowej)
-6. Połącz za pomocą ServerComponent oraz ClientComponent dane z backendu (instacji) z frontem.
-7. Używaj w trybie headed Playwright tak abyś widział jak pracujesz i wyjaśniaj w jednym screenshocie
-8. Screenshot'y mają być trzymane w katalogu screenshots.
-9. Przetestuj wszystkie trasy i napraw
+praca nad folderem projekt
+1. Używaj w trybie headed Playwright tak abyś widział jak pracujesz i wyjaśniaj w jednym screenshocie
+2. Screenshot'y mają być trzymane w katalogu screenshots.
+3. Przetestuj wszystkie trasy i napraw
