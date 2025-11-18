@@ -1,0 +1,20 @@
+Najpierw przeanalizuj projekt
+Przeanalizuj todo oraz todo_done abyś wiedział co jest do zrobienia i co zostało już zrobione
+Ponownie przeanalizuj projekt – teraz wiesz już co zostało wykonane w projekcie a co nie.
+Sprawdź repozytorium zdalne z katalogu głównego (czyli lokalizację tego pliku w drzewie katalogu projektu)
+Zmiany wprowadzaj po stronie backendu i po stronie frontu.
+Każdą zmianę weryfikuj przez curl, inne testy – naprawiaj do skutku
+Testowanie route’ów i funkcjonalności wykonuj używając Playwright w trybie headed (z włączoną przeglądarką) – użyj komendy np. run test
+Przed rozpoczęciem pracy zapisz bieżący stan na repozytorium abyś mógł cofnąć się do działającej wersji
+Każde zadanie z todo wymaga najlepiej stworzenia nowego brancha – realizacji zadania – weryfikacji dokładnej – i ewentualna naprawa – i mergowanie
+Nie możesz żadnego zadania bez szczegółowego upewnienia się, że wszystko działa po stronie frontu i backendu.
+Jeżeli tworzysz obiekty i modele to mają być one stworzone po stronie frontu i backendu aby np. w przypadku user.id nie istnieje to frontend nie wywala błędu.
+Wszystkie błędy frontu i backendu mają być trzymane w next-fastapi/logs/front oraz backend.
+Po naprawie błędów mają być skasowane z logs.
+Po każdej zmianie i teście sprawdzasz różnicę czy błąd się nie pojawił i reagujesz na niego.
+Masz do dyspozycji gemini cli, ollama (możesz sprawdzić wersje) oraz clauda – nie tylko tego ale mam też prywatnie wykupionego view.
+Kod ma być skalowalny i profesjonalny i nie zawierać polskie komentarze
+Każde wykonane zadanie przenosisz z todo do todo_done.txt w katalogu głównym – od razu po wykonaniu tego zadania.
+Zawsze tworzysz kod wraz z wersją MRD czyli na każde urządzenie.
+Nie zmieniasz obecnego wyglądu a tylko rozwijasz i tworzysz w oparciu o obecny
+Kolejne widoki/podstrony mają być spójne ze sobą.
